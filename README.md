@@ -26,6 +26,8 @@ This tutorial will go over the components of regex and for example, the below co
 
 ### Anchors
 
+There are two characters, ``^`` and ``$`` that are both considered **anchors**.
+
 ### Quantifiers
 
 ### OR Operator
