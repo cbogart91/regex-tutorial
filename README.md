@@ -45,6 +45,13 @@ There are two characters, ``^`` and ``$`` that are both considered **anchors**.
 
 ### Bracket Expressions
 
+Anything that is inside ``([])`` represents a range of characters that we are wanting to match.
+
+- ``[a-z]`` - This will look for anything that is **lowercase** and any letter between **a-z**.
+
+- ``[0-9]`` - This will look for any number 0-9.
+
+
 ### Greedy and Lazy Match
 
 ### Boundaries
