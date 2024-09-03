@@ -35,6 +35,22 @@ There are two characters, ``^`` and ``$`` that are both considered **anchors**.
 
 ### Quantifiers
 
+The string is limited that your regex matches which is called **quantifiers**.
+
+- ``*`` - matches the pattern zero or more times.
+
+- ``+`` - matches the pattern one or more times.
+
+- ``?`` - matches the patter zero or one time.
+
+- ``{}`` - curly brackets provide three different ways to set limits for a match:
+
+  - ``{ a }`` - matches the pattern exactly **n** number of times
+ 
+  - ``{ a, }`` - matches the pattern at least **a** number of times
+ 
+  - ``{ a, b )`` - matches the pattern from minimum of **a** number of times to a maxium of **b** number of times 
+
 ### OR Operator
 
 ### Character Classes
