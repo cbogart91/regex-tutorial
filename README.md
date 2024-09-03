@@ -45,17 +45,29 @@ The string is limited that your regex matches which is called **quantifiers**.
 
 - ``{}`` - curly brackets provide three different ways to set limits for a match:
 
-  - ``{ a }`` - matches the pattern exactly **n** number of times
+  - ``{ a }`` - matches the pattern exactly **n** number of times.
  
-  - ``{ a, }`` - matches the pattern at least **a** number of times
+  - ``{ a, }`` - matches the pattern at least **a** number of times.
  
-  - ``{ a, b )`` - matches the pattern from minimum of **a** number of times to a maxium of **b** number of times 
+  - ``{ a, b )`` - matches the pattern from minimum of **a** number of times to a maxium of **b** number of times.
 
 ### OR Operator
 
 ### Character Classes
 
+In a regex character class is a set of characters where any one of which can occur in an input string to fulfill a match.
+
+ - ``.``
+
 ### Flags
+
+Flags define additional functionality or limits for the regex which are placed at the end after the second slash.
+
+- ``g`` - global search: the regex should be tested against all possible matches in a string.
+
+- ``i`` - case-insensitive search: case should be ignored while attempting a match in a string.
+
+- ``m`` - multi-line search: case should be treated as multiple lines.
 
 ### Grouping and Capturing
 
@@ -69,6 +81,11 @@ Anything that is inside ``([])`` represents a range of characters that we are wa
 
 
 ### Greedy and Lazy Match
+
+Greedy means they match as many occurences of particular patterns as possible which includes the **quantifiers**.
+
+Lazy match means they will match as few occurrences as possible by just adding **?** symbol after the **quantifiers**.
+
 
 ### Boundaries
 
