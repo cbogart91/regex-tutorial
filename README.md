@@ -53,11 +53,26 @@ The string is limited that your regex matches which is called **quantifiers**.
 
 ### OR Operator
 
+The **OR operator** (``|``) will add the same logic outside of a bracket expression within a grouping construct or between two different grouping constructs.
+
+- ``(abc):(xyz)``
+
+Then use the OR operator to convert to:
+
+-``(a|b|c):(x|y|z)``
+
+
 ### Character Classes
 
 In a regex character class is a set of characters where any one of which can occur in an input string to fulfill a match.
 
- - ``.``
+ - ``.`` - matches any character except the newline character (``\n``).
+
+ - ``\d`` - matches any Arabic numeral digit.
+
+ - ``\w`` - matches any alpanumberic character from the basic Latin alphabet.
+
+ - ``\s`` - matches a single whitespace character, including tabs and line breaks.
 
 ### Flags
 
@@ -70,6 +85,14 @@ Flags define additional functionality or limits for the regex which are placed a
 - ``m`` - multi-line search: case should be treated as multiple lines.
 
 ### Grouping and Capturing
+
+When regular expressions grow more complicated, you may check multiple parts of a string to determine that different sections fulfill different requirements. **Grouping constructs** break these sections up.
+
+Example that contains two grouping constructs or subexpressions:
+
+- ``(abc):(xyz)``
+
+Grouping constructs have two primary categories: **capturing** and **non-capturing**. Capturing groups capture the matched character sequences for possible re-use while non-capturing groups do not. Grouping can be made non-capturing by adding the characters ``?:`` at the beginning of an expression inside the parentheses.
 
 ### Bracket Expressions
 
