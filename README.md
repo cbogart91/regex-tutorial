@@ -5,7 +5,8 @@ Regular expressions, or regex, is a series of special characters that define a s
 ## Summary
 
 This tutorial will go over the components of regex and for example 
-``/^[a-z0-9_-]{3,16}$/
+``/^[a-z0-9_-]{3,16}$/``
+
 ## Table of Contents
 
 - [Anchors](#anchors)
