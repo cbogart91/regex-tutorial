@@ -27,6 +27,10 @@ This tutorial will go over the components of regex and for example, the below co
 ### Anchors
 
 There are two characters, ``^`` and ``$`` that are both considered **anchors**.
+``^`` - signifies a string that begins with the characters that follow it.
+
+``$`` - signifies a string that ends with the characters that precede it.
+
 
 ### Quantifiers
 
