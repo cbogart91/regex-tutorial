@@ -4,7 +4,7 @@ Regular expressions, or regex, is a series of special characters that define a s
 
 ## Summary
 
-This tutorial will go over the components of regex and for example 
+This tutorial will go over the components of regex and for example, the below code is a regular expression which is called "Matching a Username":
 
 ``/^[a-z0-9_-]{3,16}$/``
 
