@@ -1,10 +1,10 @@
-# Regex Tutorial
+# Regex (Regular Expression) Tutorial
 
-Introductory paragraph (replace this with your text)
+Regular expressions, or regex, is a series of special characters that define a search pattern. 
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+This tutorial will go over the components of regex and for example 
 
 ## Table of Contents
 
