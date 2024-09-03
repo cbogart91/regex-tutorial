@@ -118,4 +118,5 @@ Lazy match means they will match as few occurrences as possible by just adding *
 
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+GitHub : https://github.com/cbogart91
+GitHub Repo : https://github.com/cbogart91/regex-tutorial
